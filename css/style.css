@@ -17,7 +17,7 @@ body {
   font-family: Roboto, sans-serif;
 }
 *,
-::before,                     /* НОВОЕ */
+::before,                                     /* НОВОЕ */
 ::after {
   box-sizing: border-box;
 }
