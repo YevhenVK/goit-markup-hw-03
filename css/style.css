@@ -27,6 +27,22 @@ html {
   -moz-tab-size: 4; /* 3 */
   tab-size: 4; /* 3 */
 }
+.container {
+  /* НОВОЕ */
+  margin-left: auto;
+  margin-right: auto;
+  width: 1440px;
+  padding-left: 20px;
+  padding-right: 20px;
+  outline: 2px solid tomato;
+}
+
+.section {
+  /* НОВОЕ */
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* Whitout dots */
 .list {
   padding: 0;
@@ -80,7 +96,11 @@ html {
   line-height: 1.87;
   letter-spacing: 0.06em;
 }
-/* Container */
+/* Container text */
+.container-list {
+  display: flex;
+  flex-direction: row;
+}
 .container-title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -88,6 +108,7 @@ html {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 .container-text {
   font-weight: 400;
@@ -103,23 +124,6 @@ html {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-}
-/* Container */
-.container {
-  /* НОВОЕ */
-  margin-left: auto;
-  margin-right: auto;
-  width: 1440px;
-  padding-left: 20px;
-  padding-right: 20px;
-  outline: 2px solid tomato;
-}
-
-/* Section */
-.section {
-  /* НОВОЕ */
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 /* Container-inner */
@@ -192,7 +196,7 @@ html {
 /* Logo */
 .logo {
   color: var(--logo-color);
-  font-family: Raleway, sans-serif;
+  font-family: Raleway;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
