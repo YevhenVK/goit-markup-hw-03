@@ -19,6 +19,8 @@ body {
 
 /* Whitout dots */
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 /* Header  */
@@ -86,13 +88,26 @@ body {
 /* Occupation */
 .occupation {
   color: var(--title-text-color);
-}
-.occupation h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+}
+/* Container */
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1440px;
+  padding-left: 20px;
+  padding-right: 20px;
+  outline: 2px solid tomato;
+}
+
+/* Section */
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /* Container-inner */
@@ -106,6 +121,9 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+}
+.container-inner p {
+  color: var(--primary-text-color);
 }
 .team.list,
 .work.list {
@@ -125,9 +143,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.container-inner p {
-  color: var(--primary-text-color);
-}
+
 /* Color of navigation */
 .link {
   color: var(--title-text-color);
