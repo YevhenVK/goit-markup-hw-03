@@ -12,31 +12,30 @@
   --background-team-color: #f5f4fa;
 }
 body {
+  margin: 0;
   color: var(--primary-text-color);
   background-color: var(--primary-background-color);
   font-family: Roboto, sans-serif;
 }
 html {
-  line-height: 1.15; /* 1 */ /* НОВОЕ */
-  -webkit-text-size-adjust: 100%; /* 2 */
-  -moz-tab-size: 4; /* 3 */
-  tab-size: 4; /* 3 */
+  box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  box-sizing: inherit;
 }
 
 .container {
   /* НОВОЕ */
-  margin-left: auto;
+  margin-left: auto; /* margin: 0 auto */
   margin-right: auto;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   outline: 2px solid tomato;
+  vertical-align: middle;
 }
 
 .section {
@@ -65,6 +64,7 @@ html {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
 .site-nav {
   font-weight: 500;
   font-size: 14px;
@@ -76,7 +76,8 @@ html {
 }
 h1,
 h2,
-h3 {
+h3,
+p {
   margin-bottom: 0;
   margin-top: 0;
 }
