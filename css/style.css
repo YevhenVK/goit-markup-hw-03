@@ -35,13 +35,24 @@ html {
   padding-left: 15px;
   padding-right: 15px;
   outline: 2px solid tomato;
-  vertical-align: middle;
+  align-items: center;
 }
-
 .section {
   /* НОВОЕ */
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.row,
+.site-nav,
+.contact {
+  padding-top: 19px;
+  padding-bottom: 30px;
+  display: flex;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /* Whitout dots */
@@ -52,7 +63,7 @@ html {
 }
 /* Header  */
 /* Контакты в одну строчку */
-.navigation .item:not(:last-child) {
+.container .item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -64,12 +75,13 @@ html {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-
 .site-nav {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  margin-left: 93px;
+  margin-right: 331px;
 }
 .site-nav .link.current {
   color: var(--accent-color);
