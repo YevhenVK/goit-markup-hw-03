@@ -49,6 +49,13 @@ html {
   margin: 0;
   list-style: none;
 }
+h1,
+h2,
+h3,
+p {
+  margin-bottom: 0;
+  margin-top: 0;
+}
 /* Header  */
 /* Контакты в одну строчку */
 
@@ -83,13 +90,7 @@ html {
 .site-nav .link.current {
   color: var(--accent-color);
 }
-h1,
-h2,
-h3,
-p {
-  margin-bottom: 0;
-  margin-top: 0;
-}
+
 /* Main */
 .post {
   background-color: var(--secondary-background-color);
@@ -113,19 +114,20 @@ p {
 .post-button {
   color: var(--secondary-text-color);
   background-color: var(--accent-color);
+  margin-top: 30px;
+  margin-bottom: 0;
   font-family: inherit;
-  align-items: center;
   text-align: center;
   min-width: 200px;
   padding: 10px 32px;
   font-weight: 700;
-  margin-top: 30px;
   font-size: 16px;
   line-height: 1.87;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   letter-spacing: 0.06em;
   border: none;
+  cursor: pointer;
 }
 /* Container text */
 .container-list {
