@@ -34,7 +34,7 @@ html {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
   align-items: center;
 }
 .section {
@@ -308,7 +308,7 @@ img {
 .filter {
   display: flex;
   margin: 0 auto;
-  margin-bottom: 56px;
+  margin-bottom: 50px;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -353,12 +353,14 @@ img {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-bottom: 4px;
 }
 .content-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
 .content {
   display: flex;
@@ -366,5 +368,12 @@ img {
   justify-content: space-between;
 }
 .content-item .link {
-  display: inline;
+  display: block;
+  border: 1px solid #eeeeee;
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+.card-title {
+  display: block;
+  margin: 20px 24px;
 }
