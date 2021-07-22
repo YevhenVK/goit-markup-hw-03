@@ -10,6 +10,8 @@
   --secondary-address-color: rgba(255, 255, 255, 0.6);
   --logo-color: #000000;
   --background-team-color: #f5f4fa;
+  --card-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 body {
   margin: 0;
@@ -204,8 +206,7 @@ p {
   margin-top: 30px;
 }
 .team.list li {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: var(--card-shadow);
   border-radius: 0px 0px 4px 4px;
 }
 .team.list p {
