@@ -365,7 +365,7 @@ img {
 }
 
 /* Один вариант с justify-content: space-between;*/
-.content {
+/* .content {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -379,11 +379,11 @@ img {
 .card-title {
   display: block;
   padding: 20px 24px;
-}
+} */
 
 /* Второй вариант с отступами по 30px */
 
-/* .content .link {
+.content .link {
   display: block;
 }
 .content-item {
@@ -402,4 +402,4 @@ img {
 .card-title {
   display: block;
   padding: 20px 24px;
-} */
+}
