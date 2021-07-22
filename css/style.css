@@ -368,7 +368,7 @@ img {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.content-item {
+.content-item .link {
   display: block;
   border: 1px solid #eeeeee;
   margin-bottom: 0;
@@ -376,5 +376,5 @@ img {
 }
 .card-title {
   display: block;
-  margin: 20px 24px;
+  padding: 20px 24px;
 }
