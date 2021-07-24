@@ -63,6 +63,12 @@ p {
 .container .item:not(:last-child) {
   margin-right: 50px;
 }
+/* (или так можно сделать растояние между ссылками)
+.site-nav .item + .item,
+.contact .item + .item {
+  margin-left: 50px;
+} */
+
 .container.row {
   padding-top: 19px;
   padding-bottom: 30px;
