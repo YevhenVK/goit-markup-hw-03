@@ -96,6 +96,11 @@ p {
   margin-left: 93px;
   margin-right: 331px; /* или .contact.list { margin-left: auto; } */
 }
+/* чтоб кнопки было удобно нажимать
+.nav-item {
+  padding-top: 5px;
+  padding-bottom: 5px;
+} */
 .site-nav .link.current {
   color: var(--accent-color);
 }
