@@ -381,10 +381,10 @@ img {
   flex-wrap: wrap;
 }
 .content-item {
+  display: block;
   margin-right: 30px;
   margin-bottom: 30px;
-
-  width: 370px;
+  width: calc((100% - 60px) / 3);
 }
 .content-item:nth-child(3n) {
   margin-right: 0;
