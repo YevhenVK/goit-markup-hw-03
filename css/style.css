@@ -376,6 +376,10 @@ img {
 }
 
 /* Самый правильный для меня отступ*/
+.content.list {
+  display: flex;
+  flex-wrap: wrap;
+}
 .content-item {
   margin-right: 30px;
   margin-bottom: 30px;
@@ -384,10 +388,6 @@ img {
 }
 .content-item:nth-child(3n) {
   margin-right: 0;
-}
-.content.list {
-  display: flex;
-  flex-wrap: wrap;
 }
 .content-item:nth-last-child(-n + 3) {
   margin-bottom: 0;
